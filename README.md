@@ -17,3 +17,4 @@
 ### 13) links.html ve .rar dosyası örneği
 ### 14) Uygulama-5 : tablo,resim,link 
 ### 15) Div-Span
+### 16) Semantic Elements
