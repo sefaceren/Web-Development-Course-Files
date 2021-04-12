@@ -14,3 +14,4 @@
 ### 10) forms.html
 ### 11) Uygulama-4: Form Sayfası
 ### 12) tables.html
+### 13) links.html ve .rar dosyası örneği
