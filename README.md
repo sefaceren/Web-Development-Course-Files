@@ -19,3 +19,4 @@
 ### 15) Div-Span
 ### 16) Semantic Elements
 ### 17) IFrame
+### 18) Uygulama-6 : Tekrar Dersi.
