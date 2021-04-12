@@ -13,3 +13,4 @@
 ### 9) images.html
 ### 10) forms.html
 ### 11) Uygulama-4: Form Sayfası
+### 12) tables.html
