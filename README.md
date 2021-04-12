@@ -7,4 +7,6 @@
 ### 3)Paragraf Etiketi ile ilgili özellikler.
 ### 4)Biçimlendirme Etiketleri.
 ### 5) Uygulama-2 : Biçimlendirme etiketleri, paragraf etiketleri ile oluşturuldu.
+### 6) Sirasiz Listeler 
+### 7) Sirali Listeler 
 
