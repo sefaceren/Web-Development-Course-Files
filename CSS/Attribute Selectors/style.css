@@ -1,0 +1,27 @@
+p[title]{
+    border: 1px solid gray;
+    padding: 5px;
+}
+p[title="firstparagraph"]
+{
+    background-color: gold;
+}
+
+a[href^="http"]{
+    color: red;
+}
+a[href$="com"] {
+    color: aqua;
+}
+
+input[type="text"]{
+    display: block;
+    background-color: aqua;
+}
+input[type="button"]{
+    background-color: white;
+    color: green;
+    padding: 5px 10px;
+
+}
+
