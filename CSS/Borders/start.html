@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Margin</title>
+	<style>	
+		
+		body{
+			margin: 0;
+		}
+		
+		.box{
+			width: 120px;
+			height: 120px;
+			background: lightgray;
+			margin: 5px;
+			padding: 10px;
+		}
+		
+		#first{
+			border-top-width: 1px;
+			border-left-width: 2px;
+			border-top-width:3px;
+
+			border-top-style: dashed;
+			border-bottom-style: groove;
+			border-left-style: dotted;
+
+			border-top-color:red;
+			border-left-color: yellow;
+			border-bottom-color: green;
+		}
+		#second{
+			border: 2px solid blue;	
+			border-top-left-radius: 15px;
+			border-top-right-radius: 50px;
+		}
+		#third{
+			border: 3px solid green;
+			border-radius: 50%;
+			
+		}
+		#msgbox{
+			background-color: green;
+			border-left: 5px solid red;
+			margin: 10px;
+			padding: 20px;
+			color: white;
+		}
+		 
+	</style>
+</head>
+<body>	
+	
+	<div class="box" id="first">box 1</div>
+	<div class="box" id="second">box 2</div>
+	<div class="box" id="third">box 3</div>	
+
+	<div id="msgbox">
+		Message Box
+	</div>
+	
+</body>
+</html>
