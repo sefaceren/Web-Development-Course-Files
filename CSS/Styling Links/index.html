@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Styling Links</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .btn {
+            background: #007bff;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .primary {
+            background: #007bff;
+            color: white;
+        }
+
+        .primary:hover {
+            opacity: 0.6;
+        }
+
+        .secondary {
+            background: #6b14a5;
+            color: white;
+        }
+
+        .secondary:hover {
+            opacity: 0.6;
+        }
+
+        .success {
+            background: green;
+            color: white;
+        }
+
+        .success:hover {
+            opacity: 0.6;
+        }
+
+        .danger {
+            background-color: red;
+            color: white;
+        }
+
+        .danger:hover {
+            opacity: 0.6;
+        }
+
+        .btn-xs {
+            padding: 8px 15px;
+            font-size: 12px;
+        }
+
+        .btn-sm {
+            padding: 10px 22px;
+            font-size: 14px;
+        }
+
+        .btn-md {
+            padding: 12px 29px;
+            font-size: 18px;
+
+        }
+
+        .btn-lg {
+            padding: 14px 36px;
+            font-size: 22px;
+
+        }
+
+        div {
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+        .btn-block {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .rounded {
+            border-radius: 10px;
+        }
+
+        .primary-outline {
+            background-color: white;
+            color: #007bff;
+            border: 1px solid #007bff;
+        }
+
+        .primary-outline:hover {
+            background-color: #007bff;
+            color: white;
+            border: 1px solid #007bff;
+        }
+
+        .secondary-outline {
+            background-color: white;
+            color: green;
+            border: 1px solid green;
+        }
+
+        .secondary-outline:hover {
+            background-color: green;
+            color: white;
+            border: 1px solid green;
+        }
+
+        .success-outline {
+            background-color: white;
+            color: blue;
+            border: 1px solid blue;
+        }
+
+        .success-outline:hover {
+            background-color: blue;
+            color: white;
+            border: 1px solid blue;
+        }
+
+        .danger-outline {
+            background-color: white;
+            color: red;
+            border: 1px solid red;
+        }
+
+        .danger-outline:hover {
+            background-color: red;
+            color: white;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+
+        <a href="/link1" class="btn primary btn-xs">Primary</a>
+        <a href="/link2" class="btn secondary btn-sm">Secondary</a>
+        <a href="/link2" class="btn success btn-md">Success</a>
+        <a href="/link2" class="btn danger btn-lg">Danger</a>
+    </div>
+
+    <br><br><br>
+
+    <a href="/link1" class="btn primary">Primary</a>
+    <a href="/link2" class="btn secondary">Secondary</a>
+    <a href="/link2" class="btn success">Success</a>
+    <a href="/link2" class="btn danger">Danger</a>
+
+    <br><br><br>
+
+    <a href="/link1" class="btn primary btn-block">Primary</a>
+    <a href="/link2" class="btn secondary btn-block">Secondary</a>
+    <a href="/link2" class="btn secondary rounded">Rounded</a>
+
+    <br><br><br>
+
+    <a href="/link1" class="btn primary-outline">
+        <i class="fas fa-home"></i>
+        Primary
+    </a>
+    <a href="/link2" class="btn secondary-outline">
+        <i class="fas fa-trash"></i>
+        Secondary
+    </a>
+    <a href="/link2" class="btn success-outline">
+        <i class="fab fa-android"></i>
+        Success
+    </a>
+    <a href="/link2" class="btn danger-outline">
+        <i class="fab fa-angular"></i>
+        Danger
+    </a>
+</body>
+
+</html>
