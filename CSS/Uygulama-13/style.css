@@ -3,7 +3,6 @@
 }
 
 #gallery{
-    width: 1000px;
     margin: 20px auto;
 }
 
@@ -32,4 +31,16 @@
 .description{
     text-align: center;
     padding: 15px;
+}
+
+@media screen and (max-width:800px){
+    .item-container{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .item-container{
+        width: 100%;
+    }
 }
