@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Change Events</title>
+</head>
+
+<body>
+
+    <form>
+        <p>
+            Ad : <input type="text" class="control">
+        </p>
+        <p>
+            Hobiler : <select name="" id="" class="control">
+                <option value="spor" selected="selected">Spor Yapmak</option>
+                <option value="sinema">Sinema</option>
+            </select>
+        </p>
+    </form>
+
+
+    <script>
+
+        $(document).ready(function(){
+
+            $('.control').change(function(){
+               console.log($(this).val()) ;
+            });
+
+        });
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>
