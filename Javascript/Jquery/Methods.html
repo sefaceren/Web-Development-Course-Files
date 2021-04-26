@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Methods</title>
+    <style>
+        .highlight{
+            background-color: yellow;
+        }
+
+        .green{
+            background-color: green;
+        }
+        /*input placeholder rengini #fff'e dönüştürdük.*/
+        #soyad::placeholder{
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Jquery Helper Methods</h1>
+    <ul>
+        <li>Selectors</li>
+        <li>Methods</li>
+        <li>Animations</li>
+    </ul>
+
+    <input id="ad" type="text" placeholder="Adınız">
+    <input id="soyad" type="text" class="green" placeholder="Soyadınız" >
+    <button id="btnKaydet" onclick="adsoyad();">Kaydet</button>
+
+    <img src="./img/bmw.jpg" width="200px" style="display: block; margin: 10px;" alt="">
+
+    <script>
+        //ul içerisindeki li elemanlarının bütün textlerini alır.
+        //console.log($("ul li").text());
+        //text() metodu ile seçilen elementin $("h1") içerisindeki text'i değiştirebiliriz.
+        //$("h1").text("Javascript");
+        //input ve textarea elementinin içerisindeki text'i val() metodu ile alabiliriz.
+        //console.log($('input').val());
+
+        $("img").attr("width","400")
+
+
+        function adsoyad(){
+
+            var ad = $("#ad").val();
+            var soyad = $("#soyad").val();
+            console.log("adınız ve soyadınız :"+ ad +" " +soyad);
+            //class eklemek için addClass() metodunu kullanırız.
+            //$("#ad").addClass('highlight')
+
+            //class silmek için removeClass() metodunu kullanırız.
+            $("#soyad").removeClass('green');
+            // class var ise kaldırır , class yok ise ekler.
+            $("#ad").toggleClass('highlight');
+
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
