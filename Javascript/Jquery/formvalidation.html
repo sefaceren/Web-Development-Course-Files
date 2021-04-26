@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Form Validation</title>
+    <style>
+        .wrapper {
+            width: 700px;
+            margin: 0 auto;
+        }
+
+        body {
+            font-size: 180%;
+        }
+
+        input {
+            padding: 15px;
+            font-size: 25px;
+            border-radius: 5px;
+            border: 1px solid grey;
+            width: 490px;
+        }
+
+        label {
+            display: inline-block;
+            width: 170px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        button {
+            background: green;
+            color: #fff;
+            padding: 14px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        #error {
+            color: red;
+            text-align: left;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div id="error">
+
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="your email">
+        </div>
+        <div class="form-group">
+            <label for="phone">Telefon</label>
+            <input type="text" name="email" id="phone" placeholder="Telefon">
+        </div>
+        <div class="form-group">
+            <label for="password">Parola</label>
+            <input type="text" name="email" id="parola" placeholder="Parola">
+        </div>
+        <div class="form-group">
+            <label for="repassword">Parola Tekrar</label>
+            <input type="text" name="email" id="parolatekrar" placeholder="Parola Tekrar">
+        </div>
+
+        <button id="btn">Kaydet</button>
+    </div>
+
+
+    <script>
+        $(function () {
+
+            $('#btn').click(function () {
+
+                var errormessage = "";
+                $('#error').html("");
+
+                if ($('#email').val() == "") {
+                    errormessage += "<p>*email alanı zorunlu alan</p>";
+                }
+                if ($.isNumeric($('#phone').val()) == false) {
+                    errormessage += "<p>*phone alanı düzgün girilmemiş</p>";
+                }
+                if ($('#parola').val() == "") {
+                    errormessage += "<p>*parola alanı zorunlu alan</p>";
+                }
+                if ($('#parolatekrar').val() == "") {
+                    errormessage += "<p>*parola tekrar alanı zorunlu alan</p>";
+                }
+                if ($('#parola').val()!=$('#parolatekrar').val()){
+                    errormessage+="<p>parola alanları eşleşmiyor</p>";
+                }
+
+
+                if (errormessage != "") {
+                    $("#error").html(errormessage);
+                }
+            });
+
+
+        });
+
+
+
+    </script>
+
+</body>
+
+</html>
