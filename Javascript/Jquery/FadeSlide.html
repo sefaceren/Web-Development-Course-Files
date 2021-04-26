@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Fade Slide</title>
+</head>
+
+<body>
+
+    <p>Sıfırdan Web Developer Eğitimi</p>
+    <button id="slideup">Slide Up</button>
+    <button id="slidedown">Slide Down</button>
+    <button id="toggle">Toggle</button>
+    <button id="fadeIn">Fade In</button>
+    <button id="fadeOut">Fade Out</button>
+    <button id="fadeToggle">Fade Toggle</button>
+    <button id="fadeTo">Fade To</button>
+
+    <script>
+
+        $(document).ready(function () {
+
+
+            $('#fadeIn').click(function(){
+                $('p').fadeIn(1000);
+            });
+            $('#fadeOut').click(function(){
+                $('p').fadeOut(1000);
+            });
+            $('#fadeToggle').click(function(){
+                $('p').fadeToggle("slow");
+            });
+            $('#fadeTo').click(function(){
+                $('p').fadeTo(1000,0.3)
+            });
+
+            $('#slideup').click(function(){
+                $('p').slideUp(3000);
+            });
+            $('#slidedown').click(function(){
+                $('p').slideDown(1000,function(){
+                    alert("paragraf gösterildi.");
+                })
+            });
+            $('#toggle').click(function(){
+                $('p').slideToggle("slow");
+            });
+
+
+
+
+        });
+
+    </script>
+
+</body>
+
+</html>
