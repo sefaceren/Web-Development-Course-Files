@@ -1,8 +1,8 @@
 [comment]: <![Web Geliştirme HTML](https://img.shields.io/badge/WebGeli%C5%9Ftirme-HTML-green)>
 <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
-![Web Geliştirme CSS](https://img.shields.io/badge/WebGeli%C5%9Ftirme-CSS-orange)
+[comment]: <![Web Geliştirme CSS](https://img.shields.io/badge/WebGeli%C5%9Ftirme-CSS-orange)>
 <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
-![Web Geliştirme Javascript](https://img.shields.io/badge/WebGeli%C5%9Ftirme-Javascript-yellow)
+[comment]: <![Web Geliştirme Javascript](https://img.shields.io/badge/WebGeli%C5%9Ftirme-Javascript-yellow)>
 <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 </br>
 ![Github Followers](https://img.shields.io/github/followers/sefaceren?style=social)
@@ -13,4 +13,9 @@
 
 #### Editör
 <img alt="Visual Studio Code" src="https://img.shields.io/badge/VisualStudioCode-0078d7.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-#### 
+#### Versiyon Kontrol
+<img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+#### Sosyal Bağlantılarım
+<img alt="Instagram" src="https://img.shields.io/badge/<sefaceren>-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white"/>
+<img alt="Twitch" src="https://img.shields.io/badge/<sefaceren>-%239146FF.svg?&style=for-the-badge&logo=Twitch&logoColor=white"/>
+
