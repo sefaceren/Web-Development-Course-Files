@@ -10,11 +10,12 @@
 
 ### HTML - CSS - Javascript Derslerinin olduğu bir repodur.
 
-
 #### Editör
 <img alt="Visual Studio Code" src="https://img.shields.io/badge/VisualStudioCode-0078d7.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+
 #### Versiyon Kontrol
 <img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+
 #### Sosyal Bağlantılarım
 <img alt="Instagram" src="https://img.shields.io/badge/sefaceren-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white"/>
 <img alt="Twitch" src="https://img.shields.io/badge/sefaceren-%239146FF.svg?&style=for-the-badge&logo=Twitch&logoColor=white"/>
