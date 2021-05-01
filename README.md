@@ -17,6 +17,9 @@
 <img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
 
 #### Sosyal Bağlantılarım
+
+-Instagram
 <img alt="Instagram" src="https://img.shields.io/badge/sefaceren-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white"/>
+-Twitch
 <img alt="Twitch" src="https://img.shields.io/badge/sefaceren-%239146FF.svg?&style=for-the-badge&logo=Twitch&logoColor=white"/>
 
