@@ -4,7 +4,7 @@
 
 ### HTML - CSS - Javascript Derslerinin olduğu bir repodur.
 
-(https://img.shields.io/github/followers/sefaceren?style=social)
+![Github Followers] (https://img.shields.io/github/followers/sefaceren?style=social)
 
 -
 
