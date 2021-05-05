@@ -37,10 +37,29 @@ let boxesES5 = Array.prototype.slice.call(boxes);
 
 // let arr = Array.from('Modern Javascript');
 
-const product = [
-    {name : 'Samsung S8' , price: 3000},
-    {name : 'Samsung S8' , price: 2000},
-    {name : 'Samsung S8' , price: 1000}
-]
+// const product = [
+//     {name : 'Samsung S8' , price: 3000},
+//     {name : 'Samsung S8' , price: 2000},
+//     {name : 'Samsung S8' , price: 1000}
+// ]
 
-console.log(Array.from(product,prd => prd.name));
+// console.log(Array.from(product,prd => prd.name));
+
+let numbers = ['a','b','c'];
+
+let entries = numbers.entries();
+
+for(let i of entries){
+    console.log(i);
+}
+
+let keys = numbers.keys();
+
+for(let i of keys){
+    console.log(i);
+}
+let values = numbers.values();
+
+for(let i of values){
+    console.log(i);
+}
